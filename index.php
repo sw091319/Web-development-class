@@ -4,7 +4,7 @@ $dbname = 'product';
 $user = 'root';
 $pass = 'mysql';
 $charset = 'utf8mb4';
-
+//Hello
 $dsn = "mysql:host=$host;dbname=$dbname;charset=$charset";
 $options = [
     PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
