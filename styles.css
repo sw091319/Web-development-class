@@ -1,0 +1,99 @@
+* {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    margin: 0;
+    padding: 0;
+}
+
+body>header {
+    color: #000000;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+body>.search {
+    display: flex;
+    background-color: #cce4ff;
+    width: 100%;
+    max-width: 800px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0 auto;
+    border-radius: 20px;
+    font-size: 1.2em;
+}
+
+body>.search>input {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.search_header {
+    width: 100%;
+}
+
+.search_header>h2 {
+    margin: 0 0 20px;
+}
+
+.search_header>form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.search_results>table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+#search {
+    width: 40%;
+}
+
+th, td {
+    padding: 10px 25px;
+    border-bottom: 1px solid #000000;
+}
+
+.devide_container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 20px 0;
+    align-items: flex-start;
+}
+
+.product_list>table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.add_product>form {
+    margin-top: 30px;
+}
+
+.add_product>form>input {
+    width: 100%;
+}
+    
